@@ -1,46 +1,56 @@
-Dialogflow Event Query Project README
-Overview
-This project is a Dialogflow agent designed to help users query event details based on their input. The agent responds with event information such as event name, location, date, and category. Users can ask for events happening in specific cities or on specific dates, and the agent will provide the relevant event details.
+Hello, Welcome to my profile.
 
-Features:
-Dialogflow Intents: The project uses Dialogflow intents to capture user queries regarding events.
-Event Data: The agent is configured to return pre-defined event information stored within Dialogflow's intents or entities.
-Prerequisites
-Before running the Dialogflow agent, ensure the following:
+# Template-Website-v1.0
+Fully responsive and Mobile friendly, Multiple Pages Website template / Portfolio website template using HTML5, CSS3, Bootstrap 5. Grid System, Carousel, bootstrap tooltip, bootstrap modal, icon, etc are used in this responsive website template.
 
-Google Cloud Project:
+# Live URL: http://115.112.175.136/
 
-Create a Google Cloud project in the Google Cloud Console.
-Enable the Dialogflow API.
-Dialogflow Agent:
 
-Create a Dialogflow agent in the Dialogflow Console.
-Set up intents and entities relevant to your event queries (e.g., EventDetails intent with parameters like city, event_date, etc.).
-Setup
-Create a Dialogflow Agent:
 
-If you haven’t already, go to the Dialogflow Console and create a new agent.
-Set the default language and time zone.
-Create Intents:
 
-Set up an intent (e.g., GetEventDetails) to capture queries like:
-"What events are happening in Chennai?"
-"Tell me about events on 2025-08-02"
-Define parameters such as city, event_date, and event_category.
-Train the agent to recognize variations of user queries.
-Create Entities (Optional):
+# Feel free to use this template. Happy Coding!
 
-You can create custom entities like @city for cities (e.g., "Chennai", "Mumbai") and @event_category for event categories (e.g., "Music", "Tech").
-Set up Fulfillment (Optional):
 
-If you want to integrate external data, set up a webhook to provide real-time event data.
-If not, you can define event details directly within the intent responses.
-Enable Webhook (Optional):
+# Landing Page:
 
-If using external sources (like a database or API), enable webhook fulfillment to fetch event details dynamically.
-Set up the webhook URL and configure it in the Fulfillment section of Dialogflow.
-Testing the Agent:
+![landing page](https://github.com/mdtalalwasim/Template-Website-v1.0/assets/91146041/13b8bc3c-ab0e-4771-be82-43cfa91b5a64)
 
-Use the Dialogflow console’s Try it now section to interact with the agent.
-Type queries like "What events are happening in Chennai on August 2, 2025?"
-Verify that the correct responses are provided based on the predefined event details.
+# about us:
+
+![about](https://github.com/mdtalalwasim/Template-Website-v1.0/assets/91146041/ecd50451-f074-45db-a4e5-81db8de2380a)
+
+# gallery:
+
+![gallery](https://github.com/mdtalalwasim/Template-Website-v1.0/assets/91146041/ace88fb6-f681-4a27-9ef3-31fba5887311)
+
+# contact:
+
+![contact](https://github.com/mdtalalwasim/Template-Website-v1.0/assets/91146041/1e7b9978-0283-4a1f-8dec-2cdff50a0656)
+
+
+# Mobile View Screenshots are given below: 
+# Samsung Galaxy S20 Ultra screen size (412 x 915). 
+Please avoid the picture quality of screenshot -> just focus on responsive elements.
+
+# Landing Page
+
+![Landin Page - Mobile view (412 x 915)](https://github.com/mdtalalwasim/Template-Website-v1.0/assets/91146041/255c1b00-37a5-4772-bedc-94f6d087dc8b)
+
+# About 
+
+![About us - Mobile View (412 x 915)](https://github.com/mdtalalwasim/Template-Website-v1.0/assets/91146041/98a47420-93f8-457c-92e3-630fdb0538bd)
+
+# Contact
+
+![Contact us Mobile view (412 x 915)](https://github.com/mdtalalwasim/Template-Website-v1.0/assets/91146041/fc31702b-6ac6-4890-9bea-3d85034acc98)
+
+# Gallery 
+
+![Gallery -MobileView (412 x 915)](https://github.com/mdtalalwasim/Template-Website-v1.0/assets/91146041/9819f9b2-4b6c-4291-98cb-47a0c5774f36) 
+
+# Contact with Menu
+
+![Contact us with Menu-Mobile view (412 x 915)](https://github.com/mdtalalwasim/Template-Website-v1.0/assets/91146041/34635a27-5f7f-4396-8682-62e0d4856fa5)
+
+
+ 

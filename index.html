@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cookies Tech</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Navbar hover effect */
+    .navbar-nav .nav-link {
+      transition: color 0.3s ease, transform 0.3s ease;
+    }
+
+    .navbar-nav .nav-link:hover {
+      color: #FFD700 !important;
+      transform: scale(1.1);
+    }
+
+    /* Carousel Image Style */
+    .carousel-inner img {
+      width: 100%;
+      height: auto;
+    }
+
+    /* Card hover effect */
+    .card {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+      box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Footer styles */
+    footer {
+      background-color: #343a40;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    footer .social-icons a {
+      color: #fff;
+      margin: 0 10px;
+      font-size: 1.2rem;
+      transition: color 0.3s ease;
+    }
+
+    footer .social-icons a:hover {
+      color: #FFD700;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">COOKIES TECH</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Projects
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Project #1</a></li>
+              <li><a class="dropdown-item" href="#">Project #2</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Project Demo</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar End -->
+
+  <!-- Carousel -->
+  <div class="container-fluid mt-3">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/ct.png" class="d-block w-100" alt="First Slide">
+        </div>
+        <div class="carousel-item">
+          <img src="images/op.jpg" class="d-block w-100" alt="Second Slide">
+        </div>
+        <div class="carousel-item">
+          <img src="images/op.jpg" class="d-block w-100" alt="Third Slide">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <!-- Carousel End -->
+
+<div style="font-family: Arial, sans-serif; background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzKOWnoJSK6gcIiN5DI59Owjft9Ycm24YqAg&s') no-repeat center center/cover; border: 2px solid #8B4513; padding: 30px; border-radius: 10px; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); color: #fff; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); animation: fadeIn 2s ease-in-out;">
+  <h2 style="color: #FFD700; text-align: center; margin-bottom: 20px; animation: slideUp 1s ease-in-out;">Welcome to Cookies Tech</h2>
+  <p style="font-size: 18px; line-height: 2; margin-bottom: 20px; animation: fadeIn 2s ease-in-out 0.5s;">
+    <strong>Cookies Tech</strong>, founded in 2023 and headquartered in Madurai, is a dynamic technology company committed to innovation and excellence. We specialize in delivering cutting-edge solutions that empower individuals and businesses to embrace the future of technology with confidence.
+  </p>
+  
+  <p style="font-size: 18px; line-height: 2; margin-bottom: 20px; animation: fadeIn 2s ease-in-out 1s;">
+    At Cookies Tech, we believe in blending creativity with technology to create impactful solutions that make a difference. Our team is dedicated to transforming ideas into reality, fostering growth, and inspiring a generation of tech leaders. Together, we shape a brighter tomorrow.
+  </p>
+  
+  <p style="font-size: 18px; line-height: 2; margin-bottom: 20px; animation: fadeIn 2s ease-in-out 1.5s;">
+    Our mission is to push the boundaries of what's possible in the tech space. With a focus on user-centric design and advanced engineering, we bring unique perspectives to every project. From mobile applications to AI-driven platforms, we strive to deliver products that resonate with modern-day challenges and opportunities.
+  </p>
+</div>
+
+<!-- CSS -->
+<style>
+  /* Keyframes for fade-in effect */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  /* Keyframes for slide-up effect */
+  @keyframes slideUp {
+    0% {
+      transform: translateY(20px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+</style>
+
+  <!-- Why Cookies Section -->
+<section class="main_heading my-5 pt-5" style="animation: fadeIn 2s ease-in-out;">
+  <div class="text-center" style="animation: slideDown 1s ease-in-out;">
+    <h1 class="display-4">Why Choose Cookies Tech?</h1>
+    <p class="lead mt-3">Innovative Solutions, Exceptional Service, and Proven Expertise.</p>
+    <hr class="w-25 mx-auto" />
+  </div>
+  <div class="container">
+    <div class="row my-4">
+      <div class="col-md-4" style="animation: slideInLeft 1.5s ease-in-out;">
+        <h4>Innovation at Its Core</h4>
+        <p>At Cookies Tech, we push the boundaries of technology to deliver the best possible solutions for our clients.</p>
+      </div>
+      <div class="col-md-4" style="animation: fadeIn 2s ease-in-out 0.5s;">
+        <h4>Customer-Centric Approach</h4>
+        <p>Your satisfaction is our priority. We work closely with you to ensure our services meet your expectations.</p>
+      </div>
+      <div class="col-md-4" style="animation: slideInRight 1.5s ease-in-out;">
+        <h4>Global Reach</h4>
+        <p>With a strong network of clients and partners, we offer solutions that transcend geographical boundaries.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Why Cookies Section End -->
+
+<!-- CSS -->
+<style>
+  /* Keyframes for fade-in effect */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  /* Keyframes for slide-down effect */
+  @keyframes slideDown {
+    0% {
+      transform: translateY(-20px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  /* Keyframes for slide-in from left */
+  @keyframes slideInLeft {
+    0% {
+      transform: translateX(-50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  /* Keyframes for slide-in from right */
+  @keyframes slideInRight {
+    0% {
+      transform: translateX(50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+</style>
+<!-- our services section Start-->
+
+		<section class="main_heading my-5 pt-5 bg-light">
+			<div class="text-center ">
+				<h1 class="display-4">Our Products </h1>
+				<hr class="w-25 mx-auto" />
+			</div>
+<div class="container my-service">
+				<div class="row  my-5">
+					<div class="col-md-4 col-10 col-xxl-4 mx-auto">
+						<div class="card mb-3" style="max-width: 540px;">
+							  <div class="row">
+							    <div class="col-md-4 horizontal-card-img">
+							      <img src="images/i1.png" class="img-fluid rounded-start" alt="images/g1.jpg">
+							    </div>
+							    <div class="col-md-8">
+							      <div class="card-body">
+							        <h5 class="card-title">PLANORA </h5>
+							        <p class="card-text">Event management app where we are having 50+ vendors like catering, Dj, Photography etc. Connecting customers with vendors.</p>
+							        <p class="card-text"><small class="text-muted">Last updated  5 days ago</small></p>
+							      </div>
+							    </div>
+							  </div>
+							</div>
+					</div>
+
+
+
+
+
+					<div class="col-md-4 col-10 col-xxl-4 mx-auto">
+						<div class="card mb-3" style="max-width: 540px;">
+							  <div class="row">
+							    <div class="col-md-4 horizontal-card-img">
+							      <img src="images/u.jpg" class="img-fluid rounded-start" alt="images/u.jpg">
+							    </div>
+							    <div class="col-md-8">
+							      <div class="card-body">
+							        <h5 class="card-title">Tuto Enjoy Learning</h5>
+							        <p class="card-text">It is basically the e-learning app containes notes, question paper, Videos related to 10,11,,12 State board syllabus for free</p>
+							        <p class="card-text"><small class="text-muted">Last updated 1 month ago</small></p>
+							      </div>
+							    </div>
+							  </div>
+							</div>
+					</div>
+
+
+
+
+
+					<div class="col-md-4 col-10 col-xxl-4 mx-auto">
+						<div class="card mb-3" style="max-width: 540px;">
+							  <div class="row">
+							    <div class="col-md-4 horizontal-card-img">
+							      <img src="images/y.jpeg" class="img-fluid rounded-start" alt="images/y.jpeg">
+							    </div>
+							    <div class="col-md-8">
+							      <div class="card-body">
+							        <h5 class="card-title">Trade Mart</h5>
+							        <p class="card-text">An E-commerce app which connects the customers with local vendors where they can able to buy any products by bargaining at our app.</p>
+							        <p class="card-text"><small class="text-muted">
+UPCOMING</small></p>
+							      </div>
+							    </div>
+							  </div>
+							</div>
+					</div>
+
+
+
+					<div class="col-xxl-12 text-center my-5">
+						<a href="https://play.google.com/store/apps/dev?id=8614305679410370526" target="_blank" rel="noopener noreferrer">
+  <button type="button" class="btn btn-outline-info" data-bs-toggle="tooltip" data-bs-placement="right" title="who am i">
+    Learn More
+  </button>
+</a>
+
+					</div>
+					
+				</div>
+				
+			</div></section>
+
+ <!-- our services section Start-->
+
+		<section class="main_heading my-5 pt-5 bg-light">
+			<div class="text-center ">
+				<h1 class="display-4">Founding Members </h1>
+				<hr class="w-25 mx-auto" />
+			</div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./images/ak.jpeg" alt="Team member 1" class="card-img-top">
+            <div class="card-body">
+              <h3 class="card-title">Anantha Krishnan.V</h3>
+              <span class="card-text">Executive Director</span>
+              <div class="icons mt-3">
+                <a href="https://www.facebook.com/" class="fab fa-facebook-f"></a>
+                <a href="https://twitter.com/login" class="fab fa-twitter"></a>
+                <a href="https://www.instagram.com/" class="fab fa-instagram"></a>
+                <a href="https://www.linkedin.com/" class="fab fa-linkedin"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./images/pp.jpg" alt="Team member 2" class="card-img-top">
+            <div class="card-body">
+              <h3 class="card-title">Sanjay Kumar S.</h3>
+              <span class="card-text">CEO</span>
+              <div class="icons mt-3">
+                <a href="https://www.facebook.com/" class="fab fa-facebook-f"></a>
+                <a href="https://twitter.com/login" class="fab fa-twitter"></a>
+                <a href="https://www.instagram.com/" class="fab fa-instagram"></a>
+                <a href="https://www.linkedin.com/" class="fab fa-linkedin"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+         <div class="col-md-4">
+          <div class="card">
+            <img src="./images/hn.jpeg" alt="Team member 2" class="card-img-top">
+            <div class="card-body">
+              <h3 class="card-title">Harish.N</h3>
+              <span class="card-text">Director</span>
+              <div class="icons mt-3">
+                <a href="https://www.facebook.com/" class="fab fa-facebook-f"></a>
+                <a href="https://twitter.com/login" class="fab fa-twitter"></a>
+                <a href="https://www.instagram.com/" class="fab fa-instagram"></a>
+                <a href="https://www.linkedin.com/" class="fab fa-linkedin"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./images/kk.jpeg" alt="Team member 3" class="card-img-top">
+            <div class="card-body">
+              <h3 class="card-title">Kishore</h3>
+              <span class="card-text">Cheif Marketing Head</span>
+              <div class="icons mt-3">
+                <a href="https://www.facebook.com/" class="fab fa-facebook-f"></a>
+                <a href="https://twitter.com/login" class="fab fa-twitter"></a>
+                <a href="https://www.instagram.com/" class="fab fa-instagram"></a>
+                <a href="https://www.linkedin.com/" class="fab fa-linkedin"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+<div class="communicate text-center my-5">
+  <h3 class="font-weight-bold">Showcase Your Business with Us!</h3>
+  <p>
+    <strong>At Cookies Tech,</strong> we’re committed to delivering the best service for our users. Have questions or need help? Reach out to us anytime.
+  </p>
+</div>
+
+<section id="contact" class="contact text-center py-5">
+  <h1 class="heading mb-4">Contact Us</h1>
+  <p class="mb-3">
+    <strong>Need Help or Want to Delete Your Account?</strong>
+  </p>
+  <p class="mb-3">
+    If you have questions or require assistance, <strong>Cookies Tech</strong> is here for you. 
+  </p>
+  <p class="mb-3">
+    <strong>Account Deletion:</strong> Email us at 
+    <a href="mailto:tech.cookies1@gmail.com">tech.cookies1@gmail.com</a> with the subject line 
+    <em>"Account Deletion Request."</em> Our team will respond promptly.
+  </p>
+  <p>
+    We value your feedback and aim to improve your experience. Feel free to share your thoughts or concerns with us!
+  </p>
+</section>
+
+
+  <!-- Footer -->
+  <footer class="text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 my-3">
+          <h5>Contact Us</h5>
+          <p>Email: support@cookiestech.com</p>
+          <p>Phone: +91 1234567890</p>
+        </div>
+        <div class="col-md-6 my-3">
+          <h5>Follow Us</h5>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="text-muted mt-3">
+        <p>&copy; 2025 Cookies Tech. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer
